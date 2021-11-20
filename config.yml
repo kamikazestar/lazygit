@@ -199,3 +199,9 @@ keybinding:
     update: 'u'
     bulkMenu: 'b'
 
+customCommands:
+  - key: "z"
+    command: "git cz"
+    context: "files"
+    loadingText: "opening commitizen commit tool"
+    subprocess: true
