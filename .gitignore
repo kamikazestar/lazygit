@@ -1,0 +1,5 @@
+# Ignore nvim directory
+nvim/*
+
+# Ignore state file
+state.yml
