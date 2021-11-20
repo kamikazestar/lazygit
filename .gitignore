@@ -1,5 +1,6 @@
 # Ignore nvim directory
 nvim/*
+lazygit/*
 
 # Ignore state file
 state.yml
