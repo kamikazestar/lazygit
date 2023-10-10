@@ -60,8 +60,9 @@ git:
     disableForcePushing: false
     parseEmoji: false
 os:
+    edit: 'nvim'
+    editAtLine: 'nvim --line={{line}} {{filename}}'
     editCommand: '' # see 'Configuring File Editing' section
-    editCommandTemplate: '{{editor}} {{filename}}'
     openCommand: ''
 refresher:
     refreshInterval: 10 # file/submodule refresh interval in seconds
