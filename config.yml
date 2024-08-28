@@ -9,20 +9,24 @@ gui:
     theme:
         lightTheme: false # For terminals with a light background
         activeBorderColor:
-            - white
-            - bold
+          - '#b4befe'
+          - bold
         inactiveBorderColor:
-            - green
+          - '#a6adc8'
         optionsTextColor:
-            - blue
+          - '#89b4fa'
         selectedLineBgColor:
-            - default
-        selectedRangeBgColor:
-            - blue
+          - '#313244'
         cherryPickedCommitBgColor:
-            - blue
+          - '#45475a'
         cherryPickedCommitFgColor:
-            - cyan
+          - '#b4befe'
+        unstagedChangesColor:
+          - '#f38ba8'
+        defaultFgColor:
+          - '#cdd6f4'
+        searchingActiveBorderColor:
+          - '#f9e2af'
     commitLength:
         show: true
     mouseEvents: true
@@ -34,7 +38,7 @@ gui:
     showCommandLog: true
     commandLogSize: 8
     authorColors: # in case you're not happy with the randomly assigned colour
-        'John Smith': '#ff0000'
+        '*': '#b4befe'
 git:
     paging:
         colorArg: always
